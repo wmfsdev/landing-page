@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.awesome-container {
+    display: flex;
+    ;
+}
+
+.awesome {
+    flex: 1;
+
+}
+
+.placeholder {
+    flex: 1;
+}
