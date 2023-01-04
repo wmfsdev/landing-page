@@ -39,10 +39,12 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: fit-content;
     background-color: #1F2937;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 50px;
+    padding-top: 50px;
     gap: 10px;
 }
 
@@ -52,12 +54,14 @@ li {
     flex: 1;
     justify-content: center;
     padding: 10px;
+    text-align: right;
 }
 
 .placeholder {
     display: flex;
     flex: 1;
-    border: 2px solid #3882F6;
+    border: 2px solid #ffffff;
+    min-width: 300px;
 }
 
 .awe-web {
@@ -86,13 +90,13 @@ li {
     width: 110px;
 }
 
-
 .random-container {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    max-height: fit-content;
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 30px;
 }
 
 .information {
@@ -103,6 +107,10 @@ li {
     font-weight: bolder;
 }
 
+.info {
+    flex: 1;
+}
+
 .cards {
     display: flex;
     align-items: center;
@@ -110,6 +118,7 @@ li {
     gap: 20px;
     flex-grow: 1;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -120,8 +129,8 @@ li {
 img {
     border-radius: 5px;
     border: 2px solid #3882F6;
-    height: 30px;
-    width: 30px;
+    height: auto;
+    max-width: 200px;
 }
 
 .quote-container {
