@@ -43,8 +43,8 @@ li {
     background-color: #1F2937;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
     gap: 10px;
 }
 
@@ -96,13 +96,13 @@ li {
     max-height: fit-content;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .information {
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 36px;
     font-weight: bolder;
 }
@@ -136,7 +136,10 @@ img {
 .quote-container {
     background-color: #E5E7EB;
     display: flex;
-    height: 350px;
+    min-height: 250px;
+    max-height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 30px;
     padding-left: 20%;
     padding-right: 20%;
     justify-content: center;
@@ -148,6 +151,7 @@ img {
     font-style: italic;
     font-weight: lighter;
     padding: 10px;
+    color: #1F2937; 
 }
 
 .quote-by {
@@ -166,13 +170,14 @@ img {
 }
 
 .blue-box {
-    height: 150px;
+    height: fit-content;
+    min-height: 120px;
     background-color: #3882F6;
     display: flex;
     width: 100%;
     justify-content: center;
     border-radius: 8px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .blue-box-left {
@@ -180,24 +185,33 @@ img {
     flex-direction: column;
     flex: 3;
     justify-content: center;
-    padding-left: 10%;
+    padding-left: 15%;
     gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .blue-box-right {
     display: flex;
     flex: 1;
+    justify-content: center;
     border-radius: 8px;
-    padding-right: 10%;
+    padding-right: 15%;
+    align-items: center;
+    
 }
 
-.blue-sign-box {
-    display:flex;
-    flex: 1;
+.blue-button {
     background-color: #3882F6;
-    border-radius: 8px;
-    justify-content: center;
-    align-items: center;
+    border: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    max-width: 110px;
+    width: fit-content;
+    min-width: 100px;
 }
 
 .action {
@@ -209,17 +223,6 @@ img {
 .action-desc {
     font-size: 16px;
     color: #E5E7EB;
-}
-
-.blue-button {
-    background-color: #3882F6;
-    border: none;
-    color: white;
-    border: 2px solid white;
-    padding: 10px;
-    border-radius: 12px;
-    font-size: 16px;
-    width: 110px;
 }
 
 .footer {
